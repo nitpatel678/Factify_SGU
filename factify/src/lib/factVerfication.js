@@ -1,5 +1,5 @@
-const mistralai_api_key = "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";
-const deepseek_api_key = "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";
+const mistralai_api_key = "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";
+const deepseek_api_key = "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";
 
 export const verifyClaim = async (claim, options = {}) => {
   const {
@@ -34,7 +34,7 @@ Format the response strictly as:
 {
   "verdict": "Likely True" | "Likely False" | "Unclear",
   "confidence": 0-100,
-  "explanation": "Detailed reasoning with sources or logical reasoning"
+  "explanation": "Detailed reasoning with sources or logical analysis."
 }
 `;
 
@@ -169,5 +169,3 @@ const buildNewsContext = (articles) => {
     (a.publishedAt ? `   Published: ${a.publishedAt}\n` : '')
   )).join("\n");
 };
-
-
