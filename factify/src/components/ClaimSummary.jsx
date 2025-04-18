@@ -65,7 +65,7 @@ export default function ClaimSummary() {
 
     <div className="border ml-5 mr-5 mt-20  bg-gray-800 rounded-lg overflow-hidden">
       <div className="p-4 flex justify-between items-center">
-        <h3 className="text-2xl text-white font-semibold">Claim</h3>
+        <h3 id='subheading' className="text-2xl text-white font-semibold">Claim</h3>
       </div>
 
       <div className="px-4 pb-4 flex gap-2">
@@ -104,7 +104,7 @@ export default function ClaimSummary() {
                 <circle cx="12" cy="12" r="10" />
               </svg>
             </div>
-            <h4 className="text-xl text-white font-semibold">Confidence score</h4>
+            <h4 id='subheading' className="text-xl text-white font-semibold">Confidence score</h4>
           </div>
 
           <div className="flex justify-between items-center mb-6">
@@ -121,7 +121,7 @@ export default function ClaimSummary() {
 
             {biasVisible && (
               <div className="text-center">
-                <p className="text-lg font-semibold mb-2 text-white gap-2">Bias<span className="font-semibold">Meter</span></p>
+                <p id='paragraph' className="text-lg font-semibold mb-2 text-white gap-2">Bias<span className="font-semibold">Meter</span></p>
                 <div className="relative inline-block">
                   <div className="w-32 h-32 rounded-full border-12 border-blue-100 dark:border-gray-600 flex items-center justify-center">
                     <div className="relative flex items-center justify-center">
@@ -146,7 +146,7 @@ export default function ClaimSummary() {
         </div>
 
         <div className="border-t border-gray-200 dark:border-gray-600 pt-4 mb-4">
-          <h4 className="text-xl font-semibold mb-4 text-white">Related News</h4>
+          <h4 id='subheading' className="text-xl font-semibold mb-4 text-white">Related News</h4>
           <div className="space-y-3">
             {relatedArticles.length > 0 ? (
               relatedArticles.slice(0, 5).map((article, idx) => (
@@ -166,7 +166,7 @@ export default function ClaimSummary() {
         </div>
 
         <div className="border-t border-gray-200 dark:border-gray-600 pt-4">
-          <button
+          <button id='subheading'
             className="flex justify-between items-center w-full text-xl font-semibold text-white"
             onClick={() => setExpanded(!expanded)}
           >
