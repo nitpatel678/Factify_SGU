@@ -1,8 +1,8 @@
 import { ChevronDown, ChevronRight, Loader2, Search } from 'lucide-react';
 import { useState } from 'react';
-// import { getNewsApiArticles } from '../lib/newDataio.js';
-// import { getGoogleFactCheck } from '../lib/googleFactCheck.js';
-// import { verifyClaim } from '../lib/factVerification.js';
+import { getNewsApiArticles } from '../lib/newsapi.js';
+import { getGoogleFactCheck } from '../lib/googleFactCheck.js';
+import { verifyClaim } from '../lib/factVerfication.js';
 
 export default function ClaimSummary() {
   const [expanded, setExpanded] = useState(false);
