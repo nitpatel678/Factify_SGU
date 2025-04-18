@@ -26,7 +26,7 @@ const teamMembers = [
 
 export default function Team() {
   return (
-    <section className="bg-gray-900 py-16 px-6 md:px-20">
+    <section id="team" className="bg-gray-900 py-16 px-6 md:px-20">
       <div className="max-w-6xl mx-auto text-center text-white">
         <h2 id="subheading" className="text-4xl font-bold mb-12">Meet Our Team</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">

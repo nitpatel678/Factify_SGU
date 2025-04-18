@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutUs() {
   return (
-    <section className="bg-gray-900 text-white py-16 px-6 md:px-20">
+    <section id="about" className="bg-gray-900 text-white py-16 px-6 md:px-20">
       <div className="max-w-5xl mx-auto text-center">
         <h2 id="subheading" className="text-4xl font-bold mb-6">About Factify</h2>
         <p id="paragraph" className="text-lg text-gray-300 leading-relaxed">

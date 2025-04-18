@@ -15,3 +15,41 @@
 #paragraph{
   font-family: "Poppins", sans-serif;
 }
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.typing-text {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2.5s steps(50, end) forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-down {
+  display: inline-block;
+  animation: slideDown 1s ease-out forwards;
+}
+
+
+
+
+
+
+
+
+/* this is the animation for the navbar*/
