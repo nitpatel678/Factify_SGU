@@ -19,21 +19,21 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="text-center bg-gray-900 text-white pt-32">
-      <h2 id="subheading" className="text-4xl font-bold mb-4">
-        <div className="inline-block w-[35ch] mx-auto">
+    <div className="text-center bg-gray-900 text-white pt-32 px-4">
+      <h2 id="subheading" className="text-2xl sm:text-4xl font-bold mb-4">
+        <div className="inline-block w-full max-w-[30ch] break-words mx-auto">
           {showHeading ? (
             <span className="typing-text block">
-              Instant News And Fact Credibility<br />Check With AI
+              Instant News And Fact Score<br />Check With AI
             </span>
           ) : (
             <span className="invisible">
-              Instant News And Fact Credibility<br />Check With AI
+              Instant News And Fact Score<br />Check With AI
             </span>
           )}
         </div>
       </h2>
-      <p className="text-xl">
+      <p className="text-base sm:text-xl">
         {showParagraph ? (
           <span className="slide-down block">
             Fact-check any article or statement using<br />GPT-powered analysis

@@ -1,4 +1,4 @@
-const mistralai_api_key = "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";
+const mistralai_api_key = "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";
 const deepseek_api_key = "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";
 
 export const verifyClaim = async (claim, options = {}) => {
@@ -34,7 +34,7 @@ Format the response strictly as:
 {
   "verdict": "Likely True" | "Likely False" | "Unclear",
   "confidence": 0-100,
-  "explanation": "Detailed reasoning with sources or logical reasoning and the logical universal fact should be 100 % confidence."
+  "explanation": "Detailed reasoning with sources or logical reasoning"
 }
 `;
 
