@@ -1,8 +1,3 @@
-# Factify_SGU
-Here’s a **detailed, bullet-pointed GitHub README summary** for your `Factify` project, including live preview, features, workflow, AI usage, technologies, advantages, use cases, and future scope:
-
----
-
 ## 📰 Factify - Real-time News & Claim Verification Platform
 
 🔗 **Live Preview**: [https://factify-sgu.vercel.app/](https://factify-sgu.vercel.app/)
