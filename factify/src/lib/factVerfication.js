@@ -1,5 +1,5 @@
-const mistralai_api_key = "";
-const deepseek_api_key = "";
+const mistralai_api_key = "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";
+const deepseek_api_key = "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";
 
 export const verifyClaim = async (claim, options = {}) => {
   const {
