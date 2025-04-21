@@ -1,5 +1,5 @@
-const mistralai_api_key = "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";
-const deepseek_api_key = "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";
+const mistralai_api_key = "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";
+const deepseek_api_key = "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";
 
 export const verifyClaim = async (claim, options = {}) => {
   const {
