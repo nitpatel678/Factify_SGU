@@ -1,4 +1,4 @@
-const apikey = "ff6ef53f8632490db0561166d22f0935";
+const apikey = "9b96a3cf35254849a5487c5ee355dc55";
 export async function getNewsApiArticles(claim) {
     try {
       const res = await fetch(`https://newsapi.org/v2/everything?q=${encodeURIComponent(claim)}&apiKey=${apikey}`);
